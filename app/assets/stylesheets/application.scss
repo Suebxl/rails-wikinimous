@@ -1,0 +1,41 @@
+@import "bootstrap/scss/bootstrap";
+
+h1, h2, h3, h4 {
+  color: #362706;
+}
+.fas {
+  font-size: 32px;
+  color:#BB6464;
+}
+
+.fas:hover {
+  color: #CDB699;
+}
+.container {
+  margin: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #BB6464;
+}
+
+a:hover {
+    color: #CDB699;
+    text-decoration:underline;
+  }
+p {
+  padding-left: 25px;
+}
+
+input {
+  background-color: #BB6464;
+  color: #CDB699;
+  border-color: #BB6464;
+  border-stryle: solid;
+}
+
+
+.background-light {
+  background-color: #C3DBD9;
+}
