@@ -3,6 +3,7 @@
 h1, h2, h3, h4 {
   color: #362706;
 }
+
 .fas {
   font-size: 32px;
   color:#BB6464;
@@ -25,17 +26,21 @@ a:hover {
     text-decoration:underline;
   }
 p {
-  padding-left: 25px;
+  padding:  0 25px 25px 25px;
+  border-bottom: solid 1px #BB6464;
 }
 
 input {
   background-color: #BB6464;
   color: #CDB699;
   border-color: #BB6464;
-  border-stryle: solid;
+  border-style: solid;
 }
 
 
 .background-light {
   background-color: #C3DBD9;
+  margin: 25px;
+  padding: 25px;
+  border-radius: 8px;
 }

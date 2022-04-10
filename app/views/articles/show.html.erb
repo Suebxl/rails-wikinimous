@@ -1,6 +1,7 @@
 <div class="contenair">
   <div class="row justify-content-center">
-    <div class="col-6">
+    <div class="col-6 ">
+    <div class="background-light">
       <h2>
         <%= @article.title %>
         <%= link_to edit_article_path do%>
@@ -11,7 +12,7 @@
         <% end %>
       </h2>
       <p> <%= @article.content %></p>
-
+    </div>
 
       <%= link_to articles_path do%>
         <i class="fas fa-backward"> Back</i>
